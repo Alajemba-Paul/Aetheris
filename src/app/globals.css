@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  overscroll-behavior-y: none;
+}
+
+/* Hide scrollbar for cleaner mobile feel */
+::-webkit-scrollbar {
+  display: none;
+}
